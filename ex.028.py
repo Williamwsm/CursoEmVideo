@@ -1,0 +1,11 @@
+n = int(input(print('Informe um numero: ')))
+n0 = 0
+n1 = 1
+print('{} → {} → '.format(n0, n1), end='')
+cont = 3
+while cont <= n:
+    n2 = n0 + n1
+    n0 = n1
+    n1 = n2
+    print('→ {} '.format(n2), end='')
+    cont += 1
